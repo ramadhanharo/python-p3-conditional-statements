@@ -38,7 +38,7 @@ def fizzbuzz(num):
 
 def calculator(operation, num1, num2):
     # your code here
-
+    
     if operation == "+":
         return num1 + num2
     elif operation == "-":
@@ -47,8 +47,6 @@ def calculator(operation, num1, num2):
         return num1 * num2
     elif operation == "/":
         return num1 / num2
-    else:
-        return "Invalid operation"
 
-    pass
-    pass
+    print("Invalid operation!")
+    return None
